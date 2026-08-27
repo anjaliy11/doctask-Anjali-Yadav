@@ -1,0 +1,13 @@
+﻿.env
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+dist/
+.pytest_cache/
+.mypy_cache/
+sample_data/raw/
+
+# Local development dumps
+backend_dump.txt
+frontend_and_tests_dump.txt

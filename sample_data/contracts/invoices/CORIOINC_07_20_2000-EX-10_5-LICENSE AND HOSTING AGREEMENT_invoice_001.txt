@@ -1,0 +1,47 @@
+INVOICE
+
+Invoice Number: INV-2000-0005
+
+Invoice Date: August 17, 2026
+
+Due Date: October 16, 2026
+
+Reference: License and Hosting Agreement (Exhibit 10.5)
+
+
+FROM:
+
+Commerce One, Inc.
+1600 Rivera Avenue
+Walnut Creek, CA 94596
+
+
+TO:
+
+Corio Inc.
+700 Bay Road, Suite 210
+Redwood City, CA 94063
+
+
+SERVICES RENDERED:
+
+1. Software User Licenses (Non-transferable/Non-reusable): 150 Named Users @ $250.00/user = $37,500.00
+2. Tier One & Operational Support Services: 100 Hours @ $185.00/hr = $18,500.00
+3. Application Infrastructure Hosting Enablement (Active Corio Servers): 20 Servers @ $1,200.00/server = $24,000.00
+
+
+SUBTOTAL: $80,000.00
+
+TAX: $0.00 (B2B services)
+
+TOTAL DUE: $80,000.00
+
+
+PAYMENT TERMS:
+
+Net-60 per Amendment No. 1 effective May 1, 2000. Original Net-30 terms superseded.
+
+
+NOTES:
+
+This invoice reflects services provided under the License and Hosting Agreement (Exhibit 10.5) subject to Amendment No. 1 effective May 1, 2000. Per the amendment, the revised Net-60 payment terms govern this invoice, and the original Net-30 terms no longer apply.

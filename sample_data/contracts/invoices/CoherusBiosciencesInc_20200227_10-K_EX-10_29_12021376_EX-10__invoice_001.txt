@@ -1,0 +1,52 @@
+INVOICE
+
+Invoice Number: INV-2020-0004
+
+Invoice Date: August 17, 2026
+
+Due Date: October 16, 2026
+
+Reference: License and Development Agreement (Exhibit 10.29)
+
+
+FROM:
+
+Bioeq IP AG
+[***]
+
+
+TO:
+
+Coherus BioSciences, Inc.
+333 Twin Dolphin Drive, Suite 600
+Redwood City, CA 94065, USA
+
+
+SERVICES RENDERED:
+
+1. Ranibizumab Biosimilar Clinical Development & Regulatory Support (Section 4)
+   160 FTE Hours @ $350.00/hr — $56,000.00
+
+2. Development & Manufacturing Plan Execution Oversight (Schedule 3.2)
+   1 Milestone Unit @ $250,000.00 — $250,000.00
+
+3. Quality & Technology Transfer Consulting (Section 5)
+   80 FTE Hours @ $300.00/hr — $24,000.00
+
+
+SUBTOTAL: $330,000.00
+
+TAX: $0.00 (B2B services)
+
+TOTAL DUE: $330,000.00
+
+
+PAYMENT TERMS:
+
+Net-60 per Amendment No. 1 effective August 1, 2020.
+Original Net-30 terms superseded.
+
+
+NOTES:
+
+This invoice is issued under the License and Development Agreement (Exhibit 10.29) and incorporates the payment terms set forth in Amendment No. 1. Pursuant to Amendment No. 1, payment is due within sixty (60) days of receipt, and the original thirty (30) day payment terms no longer apply.

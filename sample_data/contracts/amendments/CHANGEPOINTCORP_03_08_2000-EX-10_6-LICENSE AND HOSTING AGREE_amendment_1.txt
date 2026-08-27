@@ -1,0 +1,43 @@
+AMENDMENT NO. 1
+
+Reference Contract: LICENSE AND HOSTING AGREEMENT
+
+Effective Date: June 15, 2000
+
+Parties: Corio Inc. ("CORIO") and Changepoint, Inc. ("CHANGEPOINT")
+
+
+AMENDED CLAUSES:
+
+1. Section 1.6 (Definition of Customer(s))
+Original Language:
+`"CUSTOMER(S)" means one or more customers of the Corio Services having its principal executive offices in North America who obtains a sublicense from Corio to use the Software by accessing one or more Corio Servers.`
+
+New Language:
+`"CUSTOMER(S)" means one or more customers of the Corio Services having its principal executive offices located anywhere worldwide who obtains a sublicense from Corio to use the Software by accessing one or more Corio Servers.`
+
+2. Section 4.2 (Payment Terms)
+Original Language:
+`Corio shall pay all undisputed fees and invoices within thirty (30) days from the date of receipt of the applicable invoice.`
+
+New Language:
+`Corio shall pay all undisputed fees and invoices within sixty (60) days from the date of receipt of the applicable invoice.`
+
+3. Section 8.2 (Termination for Convenience)
+Original Language:
+`Either party may terminate this Agreement without cause at any time by providing at least ninety (90) days' prior written notice to the non-terminating party.`
+
+New Language:
+`Either party may terminate this Agreement without cause at any time by providing at least thirty (30) days' prior written notice to the non-terminating party.`
+
+
+CONTRADICTIONS INTRODUCED:
+
+- Customer geographic scope changed from principal executive offices in North America to worldwide.
+- Payment terms changed from Net-30 to Net-60.
+- Termination notice period changed from 90 days to 30 days.
+
+This is important for testing automated conflict detection.
+
+
+All other terms and conditions of the Agreement remain unchanged.

@@ -1,0 +1,32 @@
+AMENDMENT NO. 1
+
+Reference Contract: DISTRIBUTOR AGREEMENT (EXHIBIT 10.8)
+
+Effective Date: January 1, 1999
+
+Parties: Tripath Technology, Inc. ("Tripath") and Uniquest Corporation ("Distributor")
+
+
+AMENDED CLAUSES:
+
+1. Section 1.2
+Original Language: "Tripath may discontinue manufacture or sale, or otherwise treat as obsolete, any or all of the Products covered by this Agreement upon thirty days written notice."
+New Language: "Tripath may discontinue manufacture or sale, or otherwise treat as obsolete, any or all of the Products covered by this Agreement upon ninety (90) days written notice."
+
+2. Section 2.5
+Original Language: "Distributor's appointment is for a term of one year from the Effective Date, renewable automatically unless terminated under Section 18"
+New Language: "Distributor's appointment is for a term of one year from the Effective Date, and shall not renew automatically. Any renewal of this Agreement shall require prior written notice executed by both parties at least sixty (60) days prior to the expiration of the current term."
+
+3. Section 5.1
+Original Language: "Tripath may in its sole discretion, immediately upon written notice to Distributor, make direct sales to certain accounts in the Territory ("Direct Sales Accounts"), including accounts to which Distributor has made sales."
+New Language: "Tripath may in its sole discretion, upon at least sixty (60) days prior written notice to Distributor, make direct sales to certain accounts in the Territory ("Direct Sales Accounts"), including accounts to which Distributor has made sales."
+
+
+CONTRADICTIONS INTRODUCED:
+
+- Product obsolescence/discontinuance notice changed from 30 days written notice to 90 days written notice.
+- Term renewal changed from automatic renewal to requiring prior written notice at least 60 days prior to expiration.
+- Tripath direct sales notice changed from immediate notice upon writing to requiring 60 days advance written notice.
+
+
+All other terms and conditions of the Agreement remain unchanged.

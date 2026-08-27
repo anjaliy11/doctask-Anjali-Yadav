@@ -1,0 +1,48 @@
+INVOICE
+
+Invoice Number: INV-2017-0006
+
+Invoice Date: August 17, 2026
+
+Due Date: October 16, 2026
+
+Reference: STRATEGIC ALLIANCE AGREEMENT (Exhibit 10.24)
+
+
+FROM:
+
+Energous Corporation
+3590 North First Street, Suite 210
+San Jose, CA 95134
+
+
+TO:
+
+Dialog Semiconductor (UK) Ltd.
+100 Longwater Avenue, Green Park
+Reading, RG2 6GP
+United Kingdom
+
+
+SERVICES RENDERED:
+
+1. Design-In Phase Engineering Support & Integration: 120 hours @ $250.00/hr = $30,000.00
+2. Uncoupled Wirefree Charging Firmware & Software Optimization: 80 hours @ $275.00/hr = $22,000.00
+3. Deposit Materials & Circuit Schematics Technical Characterization: 1 fixed unit @ $18,000.00 = $18,000.00
+
+
+SUBTOTAL: $70,000.00
+
+TAX: $0.00 (B2B services)
+
+TOTAL DUE: $70,000.00
+
+
+PAYMENT TERMS:
+
+Net-60 per Amendment No. 1 effective May 6, 2017. Original Net-30 terms superseded.
+
+
+NOTES:
+
+This invoice is issued in accordance with Amendment No. 1 to the Strategic Alliance Agreement (effective May 6, 2017). Pursuant to the amendment, payment is due within 60 days of the invoice date, and the original Net-30 payment terms no longer apply.

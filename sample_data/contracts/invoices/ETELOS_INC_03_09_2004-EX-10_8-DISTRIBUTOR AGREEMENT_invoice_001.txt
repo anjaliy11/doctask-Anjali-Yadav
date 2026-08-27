@@ -1,0 +1,50 @@
+INVOICE
+
+Invoice Number: INV-1999-0008
+
+Invoice Date: August 17, 2026
+
+Due Date: October 16, 2026
+
+Reference: DISTRIBUTOR AGREEMENT (EXHIBIT 10.8)
+
+
+FROM:
+
+Tripath Technology, Inc.
+3900 Freedom Circle Suite # 200
+Santa Clara, CA 95054
+Tel: (408) 567-3000
+Fax: (408) 567-3003
+
+
+TO:
+
+Uniquest Corporation
+780 Montague Expressway Suite 406
+Santa Jose, CA 95131
+
+
+SERVICES RENDERED:
+
+1. Tripath Class-T Digital Audio Amplifier ICs (TA2020) — 10,000 units @ $4.50/unit — $45,000.00
+2. Tripath Audio Processor Chips (TC2000) — 5,000 units @ $6.00/unit — $30,000.00
+3. Application Engineering Support Services — 100 hours @ $150.00/hour — $15,000.00
+
+
+SUBTOTAL: $90,000.00
+
+TAX: $0.00 (B2B services)
+
+TOTAL DUE: $90,000.00
+
+
+PAYMENT TERMS:
+
+Net-60 per Amendment No. 1 effective January 1, 1999.
+Original Net-30 terms superseded.
+
+
+NOTES:
+
+This invoice is issued under the Distributor Agreement (EXHIBIT 10.8) and reflects the updated payment structure established in Amendment No. 1. Please note that all original payment terms are no longer applicable and have been superseded by the amended Net-60 terms.

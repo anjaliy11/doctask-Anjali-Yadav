@@ -1,0 +1,50 @@
+INVOICE
+
+Invoice Number: INV-2020-0001
+
+Invoice Date: August 17, 2026
+
+Due Date: October 16, 2026
+
+Reference: License, Development and Commercialization Agreement (Dated February 4, 2020)
+
+
+FROM:
+
+Xencor, Inc.
+111 West Lemon Avenue
+Monrovia, CA 91016
+United States
+
+
+TO:
+
+Aimmune Therapeutics, Inc.
+8000 Marina Blvd, Suite 300
+Brisbane, CA 94005
+United States
+
+
+SERVICES RENDERED:
+
+1. Antibody R&D FTE Support (Development Services): 500 Hours @ $250.00/hr — $125,000.00
+2. Clinical Supply Material Batch Production & QA/QC Analysis: 1 Lot — $250,000.00
+3. Regulatory Documentation & Technology Transfer Consultation: 100 Hours @ $200.00/hr — $20,000.00
+
+
+SUBTOTAL: $395,000.00
+
+TAX: $0.00 (B2B services)
+
+TOTAL DUE: $395,000.00
+
+
+PAYMENT TERMS:
+
+Net-60 per Amendment No. 1 effective November 4, 2020.
+Original Net-30 terms superseded.
+
+
+NOTES:
+
+This invoice reflects services provided under the License, Development and Commercialization Agreement. Payment terms follow Section 8.2 as updated by Amendment No. 1, confirming that payment is due within 60 days and the original 30-day payment timeframe no longer applies.

@@ -1,0 +1,43 @@
+AMENDMENT NO. 1
+
+Reference Contract: STRATEGIC ALLIANCE AGREEMENT
+
+Effective Date: September 18, 2010
+
+Parties: AURA SYSTEMS INC. and ZANOTTI EAST INC.
+
+
+AMENDED CLAUSES:
+
+1. Section 1.2 (Confidential Information)
+- Original Language:
+"Confidential Information does not, however, include any information which the recipient can establish (i) was publicly known and made generally available in the public domain prior to the time of disclosure by the discloser; (ii) becomes publicly known and made generally available after disclosure by the discloser to recipient through no fault or breach of recipient; (iii) is already in the possession of recipient without restriction on use or disclosure at the time of disclosure by discloser as shown by recipient's files and records prior to the time of the disclosure; (iv) is obtained by recipient lawfully and without restriction on use or disclosure from a third party without a breach of such third party's obligations of confidentiality; or (v) is independently developed by recipient without use of or reference to discloser's Confidential Information, as shown by recipient's files and records."
+
+- New Language:
+"Confidential Information shall strictly encompass all information disclosed by either Party under this Agreement, regardless of public availability, prior possession, or third-party disclosure. Items (i) through (v) setting forth exceptions to Confidential Information are hereby deleted in their entirety, and no exceptions to confidentiality obligations shall apply."
+
+2. Section 1.3 (Field of Use)
+- Original Language:
+"1.3 The term "Field of Use" means exclusively transport refrigeration systems for vehicles and trailers."
+
+- New Language:
+"1.3 The term "Field of Use" means on a non-exclusive basis all stationary commercial and industrial refrigeration systems, explicitly excluding transport refrigeration systems for vehicles and trailers."
+
+3. Section 1.4 (Products)
+- Original Language:
+"1.4 The term "Products" means collectively those transport refrigeration systems listed in Exhibit A attached hereto, as well as any future modifications, enhancements or improvements thereto."
+
+- New Language:
+"1.4 The term "Products" means solely stationary power generators listed in Exhibit B attached hereto, explicitly excluding all transport refrigeration systems listed in Exhibit A and excluding any future modifications, enhancements, or improvements thereto."
+
+
+CONTRADICTIONS INTRODUCED:
+
+- Field of Use scope changed from "exclusively transport refrigeration systems for vehicles and trailers" to "non-exclusive stationary commercial and industrial refrigeration systems, explicitly excluding transport refrigeration."
+- Confidential Information definition changed from standard carve-outs (public domain, prior possession, third-party receipt, independent development) to absolute coverage with zero exceptions.
+- Products definition changed from transport refrigeration systems listed in Exhibit A (including future enhancements) to stationary power generators listed in Exhibit B, explicitly excluding Exhibit A products and future enhancements.
+
+This is important for testing automated conflict detection.
+
+
+All other terms and conditions of the Agreement remain unchanged.

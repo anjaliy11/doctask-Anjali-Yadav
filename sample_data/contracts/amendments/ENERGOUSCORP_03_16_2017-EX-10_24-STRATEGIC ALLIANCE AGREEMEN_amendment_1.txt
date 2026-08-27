@@ -1,0 +1,34 @@
+AMENDMENT NO. 1
+
+Reference Contract: STRATEGIC ALLIANCE AGREEMENT (Exhibit 10.24)
+
+Effective Date: May 6, 2017
+
+Parties: Dialog Semiconductor (UK) Ltd. ("DIALOG") and Energous Corporation ("ENERGOUS")
+
+
+AMENDED CLAUSES:
+
+1. Section 1.3 (Change of Control - Voting Power Threshold)
+Original Language: "(iii) the transfer of more than fifty percent (50%) of the voting power of the Target to any entity or entities not controlled by the Target..."
+New Language: "(iii) the transfer of more than twenty-five percent (25%) of the voting power of the Target to any entity or entities not controlled by the Target..."
+
+2. Section 1.3 (Change of Control - Equity Financing Exception)
+Original Language: "...provided, however, that Change of Control will not include any transaction or series of transactions entered into primarily for equity financing purposes (including, without limitation, any private equity investment or any public offering of securities)."
+New Language: "...provided, however, that Change of Control shall explicitly include any transaction or series of transactions entered into primarily for equity financing purposes (including, without limitation, any private equity investment or any public offering of securities)."
+
+3. Section 1.1 (Definition of "Affiliate")
+Original Language: "'Affiliate' means any person or entity that controls, is controlled by or is under common control with the specified person or entity, but only so long as such control exists. The term 'control' means the possession, directly or indirectly, of the power to direct or cause the direction of the management and policies of an entity, whether through ownership of voting securities, by contract or otherwise."
+New Language: "'Affiliate' means any person or entity that directly owns at least eighty percent (80%) of the voting stock of the specified entity. Control established through contract or indirect management influence shall not constitute an Affiliate under this Agreement."
+
+
+CONTRADICTIONS INTRODUCED:
+
+- Change of Control voting power transfer threshold changed from more than 50% to more than 25%.
+- Equity financing transactions changed from being explicitly excluded from Change of Control to being explicitly included.
+- Affiliate qualification changed from indirect/contractual control to requiring at least 80% direct voting stock ownership.
+
+This is important for testing automated conflict detection.
+
+
+All other terms and conditions of the Agreement remain unchanged.

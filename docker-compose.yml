@@ -1,0 +1,58 @@
+﻿services:
+
+  db:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: doctask
+    ports:
+      - "5432:5432"
+    volumes:
+      - dbdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d doctask"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./backend/.env
+    environment:
+      # Override localhost → db (Docker internal hostname)
+      DATABASE_URL: postgresql+psycopg://postgres:postgres@db:5432/doctask
+    volumes:
+      # Mount sample_data so the watcher and raw/ directory work
+      - ./sample_data:/app/sample_data
+    depends_on:
+      db:
+        condition: service_healthy
+    command: >
+      sh -c "
+        cd /app &&
+        python init_db.py &&
+        uvicorn app.main:app --host 0.0.0.0 --port 8000 
+      "
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "5173:5173"
+    depends_on:
+      - backend
+    environment:
+      # Browser calls stay same-origin; Vite forwards them to the Docker
+      # service name so local UI use does not depend on CORS preflight.
+      VITE_PROXY_TARGET: http://backend:8000
+
+volumes:
+  dbdata:

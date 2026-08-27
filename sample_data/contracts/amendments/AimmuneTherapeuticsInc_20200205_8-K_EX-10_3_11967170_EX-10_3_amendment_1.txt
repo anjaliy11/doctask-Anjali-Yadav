@@ -1,0 +1,32 @@
+AMENDMENT NO. 1
+
+Reference Contract: LICENSE, DEVELOPMENT AND COMMERCIALIZATION AGREEMENT
+
+Effective Date: November 4, 2020
+
+Parties: Xencor, Inc. ("Xencor") and Aimmune Therapeutics, Inc. ("Aimmune")
+
+
+AMENDED CLAUSES:
+
+1. Section 8.2 (Payment Terms)
+Original Language: "Section 8.2 Payment Terms. All invoices issued under this Agreement shall be due and payable by the paying Party within thirty (30) days after the receipt of the applicable invoice."
+New Language: "Section 8.2 Payment Terms. All invoices issued under this Agreement shall be due and payable by the paying Party within sixty (60) days after the receipt of the applicable invoice."
+
+2. Section 13.3 (Termination for Convenience)
+Original Language: "Section 13.3 Termination for Convenience. Aimmune shall have the right to terminate this Agreement in its entirety or on a region-by-region basis at any time without cause upon ninety (90) days' prior written notice to Xencor."
+New Language: "Section 13.3 Termination for Convenience. Aimmune shall have the right to terminate this Agreement in its entirety or on a region-by-region basis at any time without cause upon thirty (30) days' prior written notice to Xencor."
+
+3. Section 15.6 (Governing Law)
+Original Language: "Section 15.6 Governing Law. This Agreement, and all claims or causes of action based upon, arising out of, or related to this Agreement, shall be governed by and construed in accordance with the laws of the State of Delaware, without giving effect to any choice of law principles."
+New Language: "Section 15.6 Governing Law. This Agreement, and all claims or causes of action based upon, arising out of, or related to this Agreement, shall be governed by and construed in accordance with the laws of the State of New York, without giving effect to any choice of law principles."
+
+
+CONTRADICTIONS INTRODUCED:
+
+- Payment terms changed from Net-30 (30 days following receipt of invoice) to Net-60 (60 days following receipt of invoice).
+- Termination notice period for convenience changed from 90 days prior written notice to 30 days prior written notice.
+- Governing law changed from the State of Delaware to the State of New York.
+
+
+All other terms and conditions of the Agreement remain unchanged.

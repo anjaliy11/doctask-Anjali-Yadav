@@ -1,0 +1,48 @@
+INVOICE
+
+Invoice Number: INV-2010-0002
+
+Invoice Date: August 17, 2026
+
+Due Date: October 16, 2026
+
+Reference: STRATEGIC ALLIANCE AGREEMENT
+
+
+FROM:
+
+AURA SYSTEMS INC.
+2600 Skypark Drive
+Torrance, CA 90505
+
+
+TO:
+
+ZANOTTI EAST INC.
+100 Commercial Street
+Boston, MA 02109
+
+
+SERVICES RENDERED:
+
+1. AuraGen Mobile Power Generation Systems (Model AG-2000) — 10 units @ $4,500.00/unit: $45,000.00
+2. AETRU System Integration & Technical Support Services — 40 hours @ $125.00/hr: $5,000.00
+3. Transport Refrigeration Field Testing & Calibration — 20 hours @ $150.00/hr: $3,000.00
+
+
+SUBTOTAL: $53,000.00
+
+TAX: $0.00 (B2B services)
+
+TOTAL DUE: $53,000.00
+
+
+PAYMENT TERMS:
+
+Net-60 per Amendment No. 1 effective September 18, 2010.
+Original Net-30 terms superseded.
+
+
+NOTES:
+
+This invoice is rendered under the Strategic Alliance Agreement and reflects the updated payment schedule established in Amendment No. 1. Please note that the original payment terms have been fully superseded and no longer apply.

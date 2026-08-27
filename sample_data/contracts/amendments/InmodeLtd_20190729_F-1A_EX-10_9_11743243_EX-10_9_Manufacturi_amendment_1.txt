@@ -1,0 +1,34 @@
+AMENDMENT NO. 1
+
+Reference Contract: Turn-Key Manufacturing Agreement (Exhibit 10.9)
+
+Effective Date: October 1, 2011
+
+Parties: INVASIX LTD. ("Customer") and FLEXTRONICS ISRAEL LTD. ("Contractor")
+
+
+AMENDED CLAUSES:
+
+1. Section 2 (Term)
+Original language:
+"This Agreement shall commence on the Effective Date and shall continue for an initial term of year as of the Effective Date. This Agreement shall automatically be renewed for successive one (1) year increments unless either party request in writing, at least ninety (90) days prior to the anniversary date, that this Agreement not to be renewed."
+
+New language:
+"This Agreement shall commence on the Effective Date and shall continue for an initial term of one (1) year. This Agreement shall not automatically renew. Any renewal shall require express written notice signed by both parties at least thirty (30) days prior to the anniversary date."
+
+2. Section 1.2 (Precedence)
+Original language:
+"It is the intent of the parties that this Agreement and its appendices represent the entire agreement and prevail over the terms and conditions of any purchase order, acknowledgment form or order instruction."
+
+New language:
+"In the event of any conflict or inconsistency, the terms and conditions of any purchase order, acknowledgment form, or order instruction shall supersede and prevail over the terms and conditions of this Agreement and its appendices."
+
+
+CONTRADICTIONS INTRODUCED:
+
+- Renewal mechanism changed from automatic renewal to requiring affirmative written notice.
+- Renewal/non-renewal notice period changed from ninety (90) days to thirty (30) days prior to the anniversary date.
+- Contract precedence changed so that individual purchase orders and acknowledgment forms now prevail over the terms of the main Agreement.
+
+
+All other terms and conditions of the Agreement remain unchanged.

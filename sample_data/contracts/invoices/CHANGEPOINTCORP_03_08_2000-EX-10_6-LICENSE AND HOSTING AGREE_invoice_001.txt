@@ -1,0 +1,53 @@
+INVOICE
+
+Invoice Number: INV-2000-0003
+
+Invoice Date: August 17, 2026
+
+Due Date: October 16, 2026
+
+Reference: LICENSE AND HOSTING AGREEMENT (dated December 13, 1999) & Amendment No. 1
+
+
+FROM:
+
+Changepoint, Inc.
+1595 Sixteenth Ave., Suite 700
+Richmond Hill, Ontario, Canada L4B 3N9
+
+
+TO:
+
+Corio Inc.
+700 Bay Road, Suite 210
+Redwood City, CA 94063
+
+
+SERVICES RENDERED:
+
+1. Software User Sublicensing Fee (Global Software Users)
+   - 250 Named Users @ $120.00/user/month (Q3 2026 - 3 Months): $90,000.00
+
+2. Level 3 Software Support & Technical Escalation Services
+   - 80 Hours @ $175.00/hour: $14,000.00
+
+3. ASP Hosting Infrastructure Maintenance & Documentation Updates
+   - Q3 2026 Flat Maintenance Fee: $21,000.00
+
+
+SUBTOTAL: $125,000.00
+
+TAX: $0.00 (B2B services)
+
+TOTAL DUE: $125,000.00
+
+
+PAYMENT TERMS:
+
+Net-60 per Amendment No. 1 effective June 15, 2000.
+Original Net-30 terms superseded.
+
+
+NOTES:
+
+This invoice reflects the amended payment terms under Section 4.2 (Amendment No. 1), which extends the payment due date to sixty (60) days from receipt of invoice. The original Net-30 payment terms no longer apply.

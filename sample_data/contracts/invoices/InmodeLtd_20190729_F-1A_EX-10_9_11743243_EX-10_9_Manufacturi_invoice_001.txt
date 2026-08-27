@@ -1,0 +1,48 @@
+INVOICE
+
+Invoice Number: INV-2011-0009
+
+Invoice Date: August 17, 2026
+
+Due Date: October 16, 2026
+
+Reference: Turn-Key Manufacturing Agreement (Exhibit 10.9)
+
+
+FROM:
+
+Flextronics Israel Ltd.
+Industrial Zone Migdal Haemek 23108
+P.O.B. 867, Israel
+
+
+TO:
+
+Invasix Ltd.
+Tavor Building, Shaar Yokneam
+POB 533, Yokneam 20692, Israel
+
+
+SERVICES RENDERED:
+
+1. Printed Circuit Board & Cable Assembly (Section 4.1): 1,500 units @ $45.00/unit — $67,500.00
+2. Final Product Assembly & Integration (Section 4.1): 500 units @ $110.00/unit — $55,000.00
+3. In-Circuit & Functional Testing Services (Section 4.1): 100 hours @ $125.00/hour — $12,500.00
+4. Material Planning & Procurement Handling (Section 4.1 & 6): 1 fixed lot — $5,000.00
+
+
+SUBTOTAL: $140,000.00
+
+TAX: $0.00 (B2B services)
+
+TOTAL DUE: $140,000.00
+
+
+PAYMENT TERMS:
+
+Net-60 per Amendment No. 1 effective October 1, 2011. Original Net-30 terms superseded.
+
+
+NOTES:
+
+This invoice reflects manufacturing services rendered under the Turn-Key Manufacturing Agreement and incorporates the amended payment provisions established in Amendment No. 1. Please note that the original Net-30 payment terms no longer apply and have been replaced by Net-60 terms.

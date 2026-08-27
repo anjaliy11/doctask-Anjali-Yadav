@@ -1,0 +1,49 @@
+INVOICE
+
+Invoice Number: INV-2005-0007
+
+Invoice Date: August 17, 2026
+
+Due Date: October 16, 2026
+
+Reference: DISTRIBUTOR AGREEMENT (Exhibit 10.5)
+
+
+FROM:
+
+VendingData Corporation
+1120 South Town Center Drive, Suite 130
+Las Vegas, NV 89144
+United States
+
+
+TO:
+
+Technical Casino Supplies Ltd
+Victoria House, Primrose Hill
+London NW3 3NA
+United Kingdom
+
+
+SERVICES RENDERED:
+
+1. Supply of PokerOne™ Shuffler Units: 10 units @ $3,500.00 per unit — $35,000.00
+2. Continuous Plus™ Shuffler Monthly Maintenance & Service Fee: 15 units @ $800.00 per unit — $12,000.00
+3. Technical Support & On-Site Servicing for Random Plus™ Shufflers: 40 hours @ $150.00 per hour — $6,000.00
+
+
+SUBTOTAL: $53,000.00
+
+TAX: $0.00 (B2B services)
+
+TOTAL DUE: $53,000.00
+
+
+PAYMENT TERMS:
+
+Net-60 per Amendment No. 1 effective October 21, 2005. Original Net-30 terms superseded.
+
+
+NOTES:
+
+This invoice reflects services and products provided under the Distributor Agreement (Exhibit 10.5) and incorporates payment schedule revisions established under Amendment No. 1 effective October 21, 2005. The original payment terms no longer apply to this account.
