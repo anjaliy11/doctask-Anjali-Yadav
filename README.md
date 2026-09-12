@@ -4,13 +4,35 @@
 **Domain:** Vendor contracts · amendments · invoices
 **Stack:** Python 3.11 · FastAPI · LangGraph · PostgreSQL + pgvector · React · MCP
 
-Built for the SuperDocs Full-Stack AI Engineer task1.
+Built for the SuperDocs Full-Stack AI Engineer task.
+
+---
+
+## Contents
+
+- [What This System Does](#what-this-system-does)
+- [The Ten Required Behaviors](#the-ten-required-behaviors)
+- [Architecture](#architecture)
+- [Key Design Decisions](#key-design-decisions)
+- [Quick Start](#quick-start)
+- [Sample Dataset](#sample-dataset)
+- [Inbox Watcher — "Stay Alive" Demo](#inbox-watcher--stay-alive-demo)
+- [MCP Interface](#mcp-interface)
+- [REST API](#rest-api)
+- [Testing](#testing)
+- [Supported Formats & Domain](#supported-formats--domain)
+- [LLM Providers](#llm-providers)
+- [Project Structure](#project-structure)
+- [Security & Configuration](#security--configuration)
+- [Honest Limitations](#honest-limitations)
+- [Operational Assumptions](#operational-assumptions)
+- [Data Sources](#data-sources)
 
 ---
 
 ### What This System Does
 
-DocTask owns a pile of related documents end to end — documents that describe the same business relationship but don't always agree with each other.
+DocTask owns a pile of related documents end to end, documents that describe the same business relationship but don't always agree with each other.
 
 **Understand**
 Ingests mixed-format documents, classifies and chunks them, extracts structured facts, and grounds every fact to an exact source quote. Contradictions between documents are detected and the resulting deliverable is fully traceable to its sources.
@@ -19,7 +41,7 @@ Ingests mixed-format documents, classifies and chunks them, extracts structured 
 Takes a user-supplied rule checklist and audits extracted facts against it, producing findings that stay pending until a human approves or rejects them. A clean corpus produces an honest report of zero findings.
 
 **Stay alive**
-Watches an inbox directory for new documents. Each arrival triggers a targeted update — only the sections whose source facts were actually affected are recomputed. Untouched sections stay byte-identical. New contradictions are surfaced, never silently resolved.
+Watches an inbox directory for new documents. Each arrival triggers a targeted update, only the sections whose source facts were actually affected are recomputed. Untouched sections stay byte-identical. New contradictions are surfaced, never silently resolved.
 
 A human gates all of it, and the same operations are exposed through MCP so a machine can drive the entire workflow without a person clicking through the UI.
 
@@ -42,62 +64,44 @@ A human gates all of it, and the same operations are exposed through MCP so a ma
 
 ---
 
-### Architecture
+## Architecture
 
-```text
-                        ┌───────────────────────────┐
-                        │       Watched Inbox        │
-                        │   filesystem + watchdog    │
-                        └─────────────┬──────────────┘
-                                      │ new document
-                                      ▼
-┌───────────────────────────────────────────────────────────────────┐
-│                          FastAPI Application                       │
-│                                                                     │
-│  REST API                                    MCP Server            │
-│  ─────────                                   ──────────            │
-│  POST /piles                                 /mcp                  │
-│  POST /piles/{id}/documents                                        │
-│  GET  /runs/{id}                                                   │
-│  POST /runs/{id}/resume                                            │
-│  GET  /piles/{id}/deliverable                                      │
-│  GET  /piles/{id}/deliverable/export                                │
-│  GET  /runs/{id}/cost                                               │
-│  POST /findings/{id}/approve                                        │
-│  POST /findings/{id}/reject                                         │
-└─────────────────────────────┬───────────────────────────────────────┘
-                               ▼
-┌───────────────────────────────────────────────────────────────────┐
-│                LangGraph StateGraph + PostgresSaver                 │
-│                                                                     │
-│  classify_and_chunk                                                 │
-│         ↓                                                           │
-│  extract_facts                                                      │
-│         ↓                                                           │
-│  reconcile          — scoped to touched claim slots                 │
-│         ↓                                                           │
-│  examine_rules                                                      │
-│         ↓                                                           │
-│  human_gate         — interrupt() per finding                       │
-│         ↓                                                           │
-│  compose_deliverable                                                │
-│         ↓                                                           │
-│  section_sources dependency tracking + byte-identical check          │
-└─────────────────────────────┬───────────────────────────────────────┘
-                               ▼
-┌───────────────────────────────────────────────────────────────────┐
-│                     PostgreSQL 16 + pgvector                        │
-│                                                                     │
-│  piles · documents · chunks · facts · findings                      │
-│  deliverable_sections · section_sources · runs                      │
-│  run_costs · approvals · audit_log                                  │
-└─────────────────────────────┬───────────────────────────────────────┘
-                               ▼
-┌───────────────────────────────────────────────────────────────────┐
-│                        React Review UI                              │
-│              Intake → Review → Deliverable → Cost                   │
-│              Talks to the same REST API the MCP server uses          │
-└───────────────────────────────────────────────────────────────────┘
+```mermaid
+flowchart TB
+    inbox["Watched inbox"] --> watcher["Filesystem watcher"]
+    frontend["React review UI\n(Intake · Review · Deliverable · Cost)"] -->|"REST API"| api
+
+    subgraph api["FastAPI application"]
+        rest["REST API"]
+        mcp["MCP server"]
+    end
+
+    watcher --> rest
+
+    subgraph workflow["LangGraph workflow — checkpointed with PostgresSaver"]
+        direction LR
+        classify["classify\n& chunk"] --> extract["extract\nfacts"] --> reconcile["reconcile\nclaim slots"] --> rules["examine\nrules"] --> gate["human\ngate"] --> compose["compose\ndeliverable"] --> track["track section\nsources"]
+    end
+
+    rest --> workflow
+    mcp --> workflow
+
+    db[("PostgreSQL + pgvector\n(piles · documents · chunks · facts\nfindings · sections · runs · costs · audit)")]
+
+    api <--> db
+    workflow <--> db
+
+    classDef input fill:#e8f1ff,stroke:#2563eb,color:#111827
+    classDef service fill:#ecfdf5,stroke:#059669,color:#111827
+    classDef process fill:#fff7ed,stroke:#ea580c,color:#111827
+    classDef data fill:#f5f3ff,stroke:#7c3aed,color:#111827
+    classDef ui fill:#fdf2f8,stroke:#db2777,color:#111827
+
+    class inbox,watcher input
+    class rest,mcp service
+    class classify,extract,reconcile,rules,gate,compose,track process
+    class db data
+    class frontend ui
 ```
 
 ---
@@ -178,7 +182,7 @@ npm run dev
 
 ### Sample Dataset
 
-The repo ships sample vendor-contract data — base contracts, amendments, and invoices — where each amendment deliberately contradicts its base contract, guaranteeing contradiction findings out of the box.
+The repo ships sample vendor-contract data base contracts, amendments, and invoices, where each amendment deliberately contradicts its base contract, guaranteeing contradiction findings out of the box.
 
 ```bash
 python sample_data/scripts/load_sample_data.py         # load everything
@@ -302,7 +306,7 @@ python -m pytest tests/test_behaviour_8_injection.py -v
 | Google Gemini | `gemini-2.5-flash` | `GEMINI_API_KEY` |
 | Groq | `llama-3.3-70b-versatile` | `GROQ_API_KEY` |
 
-At least one key is required; with both configured, the app falls back between providers on failure or rate limit with retry/backoff. A hard per-run LLM call ceiling prevents runaway processing. Embeddings use `sentence-transformers/all-MiniLM-L6-v2` locally — no extra API key needed.
+At least one key is required; with both configured, the app falls back between providers on failure or rate limit with retry/backoff. A hard per-run LLM call ceiling prevents runaway processing. Embeddings use `sentence-transformers/all-MiniLM-L6-v2` locally, no extra API key needed.
 
 ---
 
@@ -334,13 +338,13 @@ doctask-Anjali-Yadav/
 
 ---
 
-### Security & Configuration
+## Security & Configuration
 
 Secrets stay out of version control. `backend/.env.example` documents required variables; `.gitignore` excludes `.env`, `.venv/`, `__pycache__/`, `node_modules/`, `dist/`, `.pytest_cache/`, `.mypy_cache/`, and `sample_data/raw/`. Never commit real API keys, database passwords, or other credentials.
 
 ---
 
-### Honest Limitations
+## Honest Limitations
 
 **What works:** end-to-end pipeline on plain-text documents, crash-safe resumability, independent human approval/rejection, prompt-injection detection, evidence grounding, byte-identical preservation of untouched sections, scoped reconciliation, per-call cost/latency logging, MCP interface covering the full workflow, REST API, and a functional React review UI.
 
@@ -352,7 +356,7 @@ Secrets stay out of version control. `backend/.env.example` documents required v
 - **No authentication layer** — would be added at the FastAPI middleware boundary for production.
 - **Test boundaries:** the full checkpoint/resume path needs a live PostgreSQL instance and skips (not silently passes) when one isn't reachable; the MCP HTTP transport itself isn't integration-tested, only the shared operations it calls.
 
-### Operational Assumptions
+## Operational Assumptions
 
 - **`run_id == thread_id`** — keeps the database run record and the LangGraph checkpoint addressable through one identifier.
 - **Advisory lock scope** — the pile lock protects the active-run/write check only, not the full multi-minute LLM workflow.
@@ -360,7 +364,8 @@ Secrets stay out of version control. `backend/.env.example` documents required v
 - **Approved contradictions stay visible** — approving a contradiction finding confirms the conflict; the deliverable keeps showing it. Only rejecting the finding clears it.
 - **Default inbox pile** — an unassigned document is never silently dropped; it goes to a default pile if none is specified.
 
-### Data Sources
+## Data Sources
+
 Kaggle CUAD dataset used.
 Base contracts are drawn from the CUAD dataset. Amendments and invoices are synthetically generated for demonstration, with contradictions deliberately introduced. No confidential or NDA-bound material is included.
 
